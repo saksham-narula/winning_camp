@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 
 using namespace std;
 
@@ -136,11 +136,11 @@ void playGame(){
 
     while(1){
 
-      cout << "Enter Column No. you want to make move: ";
+      cout << "Enter Row No. you want to make move: ";
 
-      cin >> c;
+      cin >> r;
 
-      if(c < 1 || c > 3)
+      if(r < 1 || r > 3)
 
         cout << "Enter Coulmn in Range 1 to 3\n";
 
@@ -152,13 +152,13 @@ void playGame(){
 
     while(1){
 
-      cout << "Enter Row No. you want to make move: ";
+      cout << "Enter Column No. you want to make move: ";
 
-      cin >> r;
+      cin >> c;
 
-      if(r < 1 || r > 3)
+      if(c < 1 || c > 3)
 
-        cout << "Enter Row in Range 1 to 3\n";
+        cout << "Enter Column in Range 1 to 3\n";
 
       else
 
