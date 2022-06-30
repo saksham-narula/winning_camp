@@ -136,13 +136,13 @@ void playGame(){
 
     while(1){
 
-      cout << "Enter Row No. you want to make move: ";
+      cout << "Enter Row  No. you want to make move: ";
 
       cin >> r;
 
       if(r < 1 || r > 3)
 
-        cout << "Enter Coulmn in Range 1 to 3\n";
+        cout << "Enter row in Range 1 to 3\n";
 
       else
 
@@ -152,13 +152,13 @@ void playGame(){
 
     while(1){
 
-      cout << "Enter Column No. you want to make move: ";
+      cout << "Enter Coulmn No. you want to make move: ";
 
       cin >> c;
 
       if(c < 1 || c > 3)
 
-        cout << "Enter Column in Range 1 to 3\n";
+        cout << "Enter Coulmn in Range 1 to 3\n";
 
       else
 
@@ -186,11 +186,11 @@ int main(){
 
   do{
 
-    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
+    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 
     cout << "\t\t\tWELCOME TO THE TIC-TAC-TOE GAME\n";
 
-    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
+    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 
     cout << "\nEnter First Player's first Name: ";
 
